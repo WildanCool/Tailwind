@@ -9,21 +9,24 @@
   <body>
     <!-- HEADER START -->
     <header
-      class="w-full h-16 bg-[#FFDD95] bg-cover bg-center border-b-4 border-yellow-200 shadow-xl"
+      class="w-full h-16 md:h-20 bg-[#FFDD95] bg-cover bg-center border-b-4 border-yellow-200 shadow-xl"
     >
-      <div class="flex w-full h-full items-center backdrop-blur-lg">
+      <div
+        class="flex w-full h-full items-center backdrop-blur-lg *:border *:border-black *:rounded-lg"
+      >
         <div
-          class="border border-black flex h-12 w-16 text-[12px] items-center justify-center backdrop-blur-l bg-[#FF9843] rounded-lg ml-2"
+          class="w-[70px] md:w-[120px] lg:w-[220px] h-[52px] md:h-[65px] ml-[6px] text-center text-sm bg-[#FB8B24]"
         >
           LOGO
         </div>
+
         <div
-          class="border border-black flex h-12 w-16 text-[12px] items-center justify-center ml-[214px] bg-[#FF9843] rounded-lg hover:bg-green-700"
+          class="w-[70px] md:w-[100px] lg:w-[130px] h-[52px] md:h-[65px] ml-[195px] md:ml-[420px] lg:ml-[760px] mr-[8px] text-center text-sm bg-[#FB8B24] hover:bg-[#ffb671]"
         >
           LOGIN
         </div>
         <div
-          class="border border-black flex h-12 w-16 text-[12px] items-center justify-center ml-1 bg-[#FF9843] rounded-lg hover:bg-green-700"
+          class="w-[70px] md:w-[100px] lg:w-[130px] h-[52px] md:h-[65px] text-center text-sm bg-[#FB8B24] hover:bg-[#ffb671]"
         >
           REGISTER
         </div>
@@ -33,19 +36,19 @@
 
     <!-- CATAGORIES -->
     <div
-      class="flex w-full items-center justify-center text-xl my-11 font-bold"
+      class="flex w-full items-center justify-center text-xl md:text-4xl my-11 md:my-14 font-bold"
     >
       CONTENT
     </div>
     <!-- CATAGORIES END -->
 
     <!-- CARD -->
-    <div class="grid justify-items-center">
+    <div class="*:mx-auto md:grid md:grid-cols-2 lg:grid-cols-3 md:mb-10">
       <div
-        class="bg-[#FFDD95] w-[245px] h-[400px] mb-10 rounded-md border-[3px] border-[#F3B95F] shadow-2xl shadow-[#FB8B24]"
+        class="bg-[#FFDD95] w-[245px] md:w-[300px] h-[400px] md:h-[470px] mb-10 rounded-md border-[3px] border-[#F3B95F] shadow-2xl shadow-[#FB8B24]"
       >
         <iframe
-          class="mx-auto mt-3 rounded-md"
+          class="mx-auto mt-3 rounded-md md:w-[265px] md:h-[170px]"
           width="220"
           height="145"
           src="https://www.youtube.com/embed/Frps2POZCTs?si=tkD8B1FY6uhNcf91"
@@ -54,18 +57,21 @@
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowfullscreen
         ></iframe>
-        <h1 class="text-base font-bold text-center my-4">KAJIAN UST KHALID</h1>
-        <p class="text-justify mx-5">
+        <h1 class="text-base md:text-xl font-bold text-center my-4 md:my-6">
+          KAJIAN UST KHALID
+        </h1>
+        <p class="text-justify mx-5 md:mx-7">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium,
           possimus! Libero modi ad autem dolor asperiores reiciendis nisi animi
           laudantium.
         </p>
       </div>
+
       <div
-        class="bg-[#FFDD95] w-[245px] h-[400px] mb-10 rounded-md border-[3px] border-[#F3B95F] shadow-2xl shadow-[#FB8B24]"
+        class="bg-[#FFDD95] w-[245px] md:w-[300px] h-[400px] md:h-[470px] mb-10 rounded-md border-[3px] border-[#F3B95F] shadow-2xl shadow-[#FB8B24]"
       >
         <iframe
-          class="mx-auto mt-3 rounded-md"
+          class="mx-auto mt-3 rounded-md md:w-[265px] md:h-[170px]"
           width="220"
           height="145"
           src="https://www.youtube.com/embed/Frps2POZCTs?si=tkD8B1FY6uhNcf91"
@@ -74,18 +80,21 @@
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowfullscreen
         ></iframe>
-        <h1 class="text-base font-bold text-center my-4">KAJIAN UST KHALID</h1>
-        <p class="text-justify mx-5">
+        <h1 class="text-base md:text-xl font-bold text-center my-4 md:my-6">
+          KAJIAN UST KHALID
+        </h1>
+        <p class="text-justify mx-5 md:mx-7">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium,
           possimus! Libero modi ad autem dolor asperiores reiciendis nisi animi
           laudantium.
         </p>
       </div>
+
       <div
-        class="bg-[#FFDD95] w-[245px] h-[400px] mb-10 rounded-md border-[3px] border-[#F3B95F] shadow-2xl shadow-[#FB8B24]"
+        class="bg-[#FFDD95] w-[245px] md:w-[300px] h-[400px] md:h-[470px] mb-10 rounded-md border-[3px] border-[#F3B95F] shadow-2xl shadow-[#FB8B24]"
       >
         <iframe
-          class="mx-auto mt-3 rounded-md"
+          class="mx-auto mt-3 rounded-md md:w-[265px] md:h-[170px]"
           width="220"
           height="145"
           src="https://www.youtube.com/embed/Frps2POZCTs?si=tkD8B1FY6uhNcf91"
@@ -94,8 +103,33 @@
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowfullscreen
         ></iframe>
-        <h1 class="text-base font-bold text-center my-4">KAJIAN UST KHALID</h1>
-        <p class="text-justify mx-5">
+        <h1 class="text-base md:text-xl font-bold text-center my-4 md:my-6">
+          KAJIAN UST KHALID
+        </h1>
+        <p class="text-justify mx-5 md:mx-7">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium,
+          possimus! Libero modi ad autem dolor asperiores reiciendis nisi animi
+          laudantium.
+        </p>
+      </div>
+
+      <div
+        class="bg-[#FFDD95] w-[245px] md:w-[300px] h-[400px] md:h-[470px] mb-10 rounded-md border-[3px] border-[#F3B95F] shadow-2xl shadow-[#FB8B24]"
+      >
+        <iframe
+          class="mx-auto mt-3 rounded-md md:w-[265px] md:h-[170px]"
+          width="220"
+          height="145"
+          src="https://www.youtube.com/embed/Frps2POZCTs?si=tkD8B1FY6uhNcf91"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+        <h1 class="text-base md:text-xl font-bold text-center my-4 md:my-6">
+          KAJIAN UST KHALID
+        </h1>
+        <p class="text-justify mx-5 md:mx-7">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium,
           possimus! Libero modi ad autem dolor asperiores reiciendis nisi animi
           laudantium.
@@ -105,15 +139,21 @@
     <!-- CARD END -->
 
     <!-- CATAGORIES(2) -->
-    <div class="w-full mx-auto ml-[25px] text-4xl font-bold mb-5">PREVIEW</div>
+    <div
+      class="w-full mx-auto ml-[25px] text-4xl md:text-[50px] font-bold mb-5 md:mb-10"
+    >
+      PREVIEW
+    </div>
     <!-- CATAGORIES(2) END -->
 
     <!-- CARD VIEWERS -->
-    <div class="grid justify-items-center">
+    <div class="*:mx-auto lg:grid lg:grid-cols-3">
       <div
-        class="w-[88%] h-[170px] mx-10 mb-7 bg-slate-200 border-[2px] border-slate-300 rounded-lg shadow-lg shadow-slate-300 hover:bg-slate-700 group"
+        class="w-[88%] h-[170px] lg:h-[200px] mx-10 mb-7 bg-slate-200 border-[2px] border-slate-300 rounded-lg shadow-lg shadow-slate-300 hover:bg-slate-700 group"
       >
-        <h1 class="text-xl font-semibold mt-2 ml-4 group-hover:text-slate-100">
+        <h1
+          class="text-xl md:text-2xl font-semibold mt-2 ml-4 group-hover:text-slate-100"
+        >
           FULAN
         </h1>
 
@@ -190,7 +230,7 @@
           </svg>
         </div>
 
-        <p class="text-justify mx-4 mb-10 group-hover:text-slate-100">
+        <p class="text-justify mx-4 mb-10 md:mt-2 group-hover:text-slate-100">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia,
           delectus exercitationem voluptas numquam doloremque voluptates eaque
           nulla dicta harum ullam!
@@ -198,9 +238,11 @@
       </div>
 
       <div
-        class="w-[88%] h-[170px] mx-10 mb-7 bg-slate-200 border-[2px] border-slate-300 rounded-lg shadow-lg shadow-slate-300 hover:bg-slate-700 group"
+        class="w-[88%] h-[170px] lg:h-[200px] mx-10 mb-7 bg-slate-200 border-[2px] border-slate-300 rounded-lg shadow-lg shadow-slate-300 hover:bg-slate-700 group"
       >
-        <h1 class="text-xl font-semibold mt-2 ml-4 group-hover:text-slate-100">
+        <h1
+          class="text-xl md:text-2xl font-semibold mt-2 ml-4 group-hover:text-slate-100"
+        >
           FULAN
         </h1>
 
@@ -277,7 +319,7 @@
           </svg>
         </div>
 
-        <p class="text-justify mx-4 mb-10 group-hover:text-slate-100">
+        <p class="text-justify mx-4 mb-10 md:mt-2 group-hover:text-slate-100">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia,
           delectus exercitationem voluptas numquam doloremque voluptates eaque
           nulla dicta harum ullam!
@@ -285,9 +327,11 @@
       </div>
 
       <div
-        class="w-[88%] h-[170px] mx-10 mb-10 bg-slate-200 border-[2px] border-slate-300 rounded-lg shadow-lg shadow-slate-300 hover:bg-slate-700 group"
+        class="w-[88%] h-[170px] lg:h-[200px] mx-10 mb-10 bg-slate-200 border-[2px] border-slate-300 rounded-lg shadow-lg shadow-slate-300 hover:bg-slate-700 group"
       >
-        <h1 class="text-xl font-semibold mt-2 ml-4 group-hover:text-slate-100">
+        <h1
+          class="text-xl md:text-2xl font-semibold mt-2 ml-4 group-hover:text-slate-100"
+        >
           FULAN
         </h1>
 
@@ -364,7 +408,7 @@
           </svg>
         </div>
 
-        <p class="text-justify mx-4 mb-10 group-hover:text-slate-100">
+        <p class="text-justify mx-4 mb-10 md:mt-2 group-hover:text-slate-100">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia,
           delectus exercitationem voluptas numquam doloremque voluptates eaque
           nulla dicta harum ullam!
@@ -377,13 +421,13 @@
 
     <footer class="flex w-full">
       <div class="flex w-1/2 h-20 p-2 bg-slate-100">
-        <img src="image's/tailwind-image.svg" alt="" class="w-7" />
+        <img src="image's/tailwind-image.svg" alt="" class="w-7 lg:ml-3" />
         <p class="w-full text-xs py-[23px] px-1">
           By the makers of <b>tailwindcss</b>
         </p>
       </div>
       <div class="w-1/2 h-20 bg-slate-100 px-2 py-4">
-        <div class="flex pl-8">
+        <div class="flex pl-8 md:pl-[190px] lg:pl-[440px]">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -401,7 +445,7 @@
           <p class="text-xs w-full py-1 pl-1">P. M Wildanumukhaladun</p>
         </div>
 
-        <div class="flex pl-8">
+        <div class="flex pl-8 md:pl-[190px] lg:pl-[440px]">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
