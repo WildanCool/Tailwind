@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body
+    style="
+      background-image: url(image\'s/gunung.jpg);
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: 100% 100%;
+    "
+  >
+    <div class="lg:flex">
+      <div class="lg:w-1/2 lg:h-full"></div>
+      <div class="w-full h-full bg-white px-5 py-5 lg:w-1/2 lg:h-[632px]">
+        <img src="image's/Wthinks.svg" alt="" class="w-[65px] mb-2" />
+        <h1 class="text-4xl font-semibold text-[#313131] mb-3">Sign In</h1>
+
+        <div class="flex mb-8">
+          <p class="mr-2">New User?</p>
+          <p class="text-blue-600 underline underline-offset-1">
+            Create an Account
+          </p>
+        </div>
+
+        <div>
+          <h2 class="text-sm mb-1 after:content-['*'] after:text-red-500">
+            Username
+          </h2>
+          <input
+            type="text"
+            id="ini-text"
+            placeholder="masukkan username"
+            class="border-b pb-1 mb-5 text-xs w-full transition duration-300 ease-in-out placeholder:text-slate-400 focus:outline-none focus:border-sky-500 invalid:text-red-600 invalid:focus:ring-red-600 invalid:focus:border-red-600 peer"
+          />
+        </div>
+
+        <div>
+          <h2 class="text-sm mb-1 after:content-['*'] after:text-red-500">
+            Email address
+          </h2>
+          <input
+            type="email"
+            id="ini-email"
+            placeholder="masukkan email"
+            class="border-b pb-1 text-xs w-full transition duration-300 ease-in-out placeholder:text-slate-400 focus:outline-none focus:border-sky-500 invalid:text-red-600 invalid:focus:ring-red-600 invalid:focus:border-red-600 peer"
+          />
+
+          <p
+            class="text-xs text-red-600 mt-1 invisible peer-invalid:visible mb-2"
+          >
+            Email tidak valid
+          </p>
+        </div>
+
+        <div>
+          <h2 class="text-sm mb-1 after:content-['*'] after:text-red-500">
+            Password
+          </h2>
+          <input
+            type="password"
+            id="ini-password"
+            placeholder="masukkan password"
+            class="border-b pb-1 text-xs w-full transition duration-300 ease-in-out placeholder:text-slate-400 focus:outline-none focus:border-sky-500 invalid:text-red-600 invalid:focus:ring-red-600 invalid:focus:border-red-600 peer"
+          />
+        </div>
+
+        <button
+          class="w-[88px] md:w-[140px] h-8 md:h-9 mt-4 mb-4 lg:mb-10 ml-[77%] md:ml-[80%] lg:ml-[78%] bg-blue-500 rounded-full font-bold text-xs text-white"
+        >
+          Continue
+        </button>
+
+        <span class="flex justify-center items-center">
+          <h1 class="w-full border-b"></h1>
+          <h1 class="p-3 font-extralight">Or</h1>
+          <h1 class="w-full border-b"></h1>
+        </span>
+        <div class="flex justify-center *:mx-5 mt-1 lg:mt-9">
+          <img src="image's/google_logo.svg" alt="" class="w-[25px]" />
+          <img src="image's/facebook_logo.svg" alt="" class="w-[25px]" />
+          <img src="image's/apple_logo.svg" alt="" class="w-[25px]" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
