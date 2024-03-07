@@ -15,28 +15,31 @@
     "
   >
     <div class="lg:flex">
-      <div class="lg:w-1/2 lg:h-full"></div>
-      <div class="w-full h-full bg-white px-5 py-5 lg:w-1/2 lg:h-[632px]">
+      <div class="hidden lg:block lg:w-1/2 lg:h-full pl-16">
+        <img
+          src="image's/Wthinks.svg"
+          alt=""
+          class="w-[150px] p-2 mt-[235px] bg-white"
+        />
+        <p class="text-5xl font-sans font-semibold text-white">
+          BERPIKIR KRITIS
+        </p>
+        <p class="text-xl font-sans font-light text-white">LAYAKNYA PERINTIS</p>
+      </div>
+
+      <div
+        class="w-full h-full bg-white px-5 py-5 lg:px-8 lg:w-[40%] lg:h-[586px] lg:my-[22px] lg:rounded-md"
+      >
         <img src="image's/Wthinks.svg" alt="" class="w-[65px] mb-2" />
         <h1 class="text-4xl font-semibold text-[#313131] mb-3">Sign In</h1>
 
         <div class="flex mb-8">
           <p class="mr-2">New User?</p>
-          <p class="text-blue-600 underline underline-offset-1">
+          <button
+            class="text-blue-600 hover:underline hover:underline-offset-1"
+          >
             Create an Account
-          </p>
-        </div>
-
-        <div>
-          <h2 class="text-sm mb-1 after:content-['*'] after:text-red-500">
-            Username
-          </h2>
-          <input
-            type="text"
-            id="ini-text"
-            placeholder="masukkan username"
-            class="border-b pb-1 mb-5 text-xs w-full transition duration-300 ease-in-out placeholder:text-slate-400 focus:outline-none focus:border-sky-500 invalid:text-red-600 invalid:focus:ring-red-600 invalid:focus:border-red-600 peer"
-          />
+          </button>
         </div>
 
         <div>
@@ -50,27 +53,13 @@
             class="border-b pb-1 text-xs w-full transition duration-300 ease-in-out placeholder:text-slate-400 focus:outline-none focus:border-sky-500 invalid:text-red-600 invalid:focus:ring-red-600 invalid:focus:border-red-600 peer"
           />
 
-          <p
-            class="text-xs text-red-600 mt-1 invisible peer-invalid:visible mb-2"
-          >
+          <p class="text-xs text-red-600 mt-1 invisible peer-invalid:visible">
             Email tidak valid
           </p>
         </div>
 
-        <div>
-          <h2 class="text-sm mb-1 after:content-['*'] after:text-red-500">
-            Password
-          </h2>
-          <input
-            type="password"
-            id="ini-password"
-            placeholder="masukkan password"
-            class="border-b pb-1 text-xs w-full transition duration-300 ease-in-out placeholder:text-slate-400 focus:outline-none focus:border-sky-500 invalid:text-red-600 invalid:focus:ring-red-600 invalid:focus:border-red-600 peer"
-          />
-        </div>
-
         <button
-          class="w-[88px] md:w-[140px] h-8 md:h-9 mt-4 mb-4 lg:mb-10 ml-[77%] md:ml-[80%] lg:ml-[78%] bg-blue-500 rounded-full font-bold text-xs text-white"
+          class="w-[88px] md:w-[140px] h-8 md:h-9 mb-4 lg:mb-3 ml-[77%] md:ml-[80%] lg:ml-[70%] bg-blue-500 rounded-full font-bold text-xs text-white hover:bg-blue-400 hover:duration-200"
         >
           Continue
         </button>
@@ -80,10 +69,46 @@
           <h1 class="p-3 font-extralight">Or</h1>
           <h1 class="w-full border-b"></h1>
         </span>
-        <div class="flex justify-center *:mx-5 mt-1 lg:mt-9">
-          <img src="image's/google_logo.svg" alt="" class="w-[25px]" />
-          <img src="image's/facebook_logo.svg" alt="" class="w-[25px]" />
-          <img src="image's/apple_logo.svg" alt="" class="w-[25px]" />
+
+        <div class="grid mt-[10px] *:rounded-full">
+          <button
+            class="w-full h-16 mb-3 border-2 border-neutral-200 flex justify-center hover:border-neutral-400 hover:duration-300"
+          >
+            <img
+              src="image's/google_logo.svg"
+              alt=""
+              class="w-[22px] mx-1 my-[18px]"
+            />
+            <p class="font-bold text-sm text-neutral-600 mx-2 my-5">
+              Continue with Google
+            </p>
+          </button>
+
+          <button
+            class="w-full h-16 mb-3 border-2 border-neutral-200 flex justify-center hover:border-neutral-400 hover:duration-300"
+          >
+            <img
+              src="image's/facebook_logo.svg"
+              alt=""
+              class="w-[24px] mx-1 my-[18px]"
+            />
+            <p class="font-bold text-sm text-neutral-600 mx-2 my-5">
+              Continue with Facebook
+            </p>
+          </button>
+
+          <button
+            class="w-full h-16 mb-3 border-2 border-neutral-200 flex justify-center hover:border-neutral-400 hover:duration-300"
+          >
+            <img
+              src="image's/apple_logo.svg"
+              alt=""
+              class="w-[20px] mx-1 my-[16px]"
+            />
+            <p class="font-bold text-sm text-neutral-600 mx-2 my-5">
+              Continue with Apple
+            </p>
+          </button>
         </div>
       </div>
     </div>
